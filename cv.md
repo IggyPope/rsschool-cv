@@ -65,11 +65,19 @@ function permutations(string) {
 }
 ```
 
+---
+
 ## Work experience:
 
 - 2018-2022: EPAM Systems Inc. - Lead Financial Analyst, FP&A department
 - 2016-2018: EPAM Systems Inc. - Senior Financial Analyst, FP&A department
 - 2012-2016: EPAM Systems Inc. - Financial Analyst, FP&A department
 - 2010-2012: A1 (ex-VELCOM) - Junior Controller, Controlling department
+
+---
+
+## Education:
+
+- 2006-2011: Belarusian State Economic University, Bachelor of Finance
 
 ---
