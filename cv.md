@@ -90,3 +90,10 @@ function permutations(string) {
 - [Udemy - React - The Complete Guide 2023 (incl. React Router & Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 
 ---
+
+## Languages:
+
+- English - _Advanced_
+- German - _Basic_
+- Russian - _Native_
+- Belarusian - _Native_
