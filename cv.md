@@ -81,3 +81,12 @@ function permutations(string) {
 - 2006-2011: Belarusian State Economic University, Bachelor of Finance
 
 ---
+
+## Courses and certificates:
+
+- [Rolling Scopes School](https://rs.school/) - JS / Front-End. Stage 0 (_in progress_)
+- [Rolling Scopes School](https://rs.school/) - Node.js (_in progress_)
+- [Udemy - The Complete 2023 Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+- [Udemy - React - The Complete Guide 2023 (incl. React Router & Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+
+---
