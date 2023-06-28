@@ -27,7 +27,7 @@ I am a keen learner and I feel like my ability and willingness to be constantly 
 
 ---
 
-## Skills and experience:
+## Skills:
 
 - HTML5, CSS3
 - JavaScript, TypeScript
