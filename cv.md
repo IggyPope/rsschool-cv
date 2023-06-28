@@ -26,3 +26,13 @@ Having started my career as a financial analyst, I quickly fell in love with the
 I am a keen learner and I feel like my ability and willingness to be constantly gaining new skills and knowledge is something that will lead me through this path of becoming a proficient Software Engineer.
 
 ---
+
+## Skills and experience:
+
+- HTML5, CSS3
+- JavaScript, TypeScript
+- React, Next.js
+- Node.js, Express
+- SQL (MSSQL Server), NoSQL (MongoDB)
+
+---
