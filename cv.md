@@ -36,3 +36,40 @@ I am a keen learner and I feel like my ability and willingness to be constantly 
 - SQL (MSSQL Server), NoSQL (MongoDB)
 
 ---
+
+## Code example:
+
+**'So Many Permutations!' Kata on Codewars (4 kyu):**\
+_In this kata, your task is to create all permutations of a non-empty input string and remove duplicates, if present._
+
+```javascript
+function permutations(string) {
+  if (string.length === 1) return [string]; // if the input is 1 char long, return input
+
+  let result = [];
+
+  const array = string.split(''); // convert the string to an array of characters
+
+  // take each character...
+  for (let charIndex in array) {
+    let splicedArray = [...array];
+    splicedArray.splice(charIndex, 1); // remove it from the array...
+
+    // and recursively...
+    for (let permutation of permutations(splicedArray.join(''))) {
+      let variation = array[charIndex] + permutation; // combine it with the combinations of the rest of the chars
+      if (!result.includes(variation)) result.push(variation);
+    }
+  }
+  return result;
+}
+```
+
+## Work experience:
+
+- 2018-2022: EPAM Systems Inc. - Lead Financial Analyst, FP&A department
+- 2016-2018: EPAM Systems Inc. - Senior Financial Analyst, FP&A department
+- 2012-2016: EPAM Systems Inc. - Financial Analyst, FP&A department
+- 2010-2012: A1 (ex-VELCOM) - Junior Controller, Controlling department
+
+---
