@@ -1,1 +1,1 @@
-https://IggyPope.github.io/rsschool-cv/cv
+https://IggyPope.github.io/rsschool-cv/
