@@ -189,3 +189,7 @@ a {
 .footer__icon {
   height: 30px;
 }
+
+.code__code-example {
+  background-color: #f4f4f4;
+}

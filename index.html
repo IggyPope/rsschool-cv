@@ -33,8 +33,8 @@
           <img alt="avatar" src="./public/avatar.jpg" class="avatar__image">
         </div>
         <section id="contact" class="contact">
-          <h3 class="section-header left-section__section-header">Contact</h3>
-          <ul class="left-section__item-list contact__list item-list">
+          <h2 class="section-header left-section__section-header">Contact</h2>
+          <ul class="flex-section__item-list contact__list item-list">
             <li class="contact__item">
               <img alt="location icon" src="./public/icons/location-dot-solid.svg" class="contact__icon">
               Minsk, BY (moving to Poland)
@@ -66,7 +66,7 @@
           </ul>
         </section>
         <section id="skills" class="skills">
-          <h3 class="section-header left-section__section-header">Skills</h3>
+          <h2 class="section-header left-section__section-header">Skills</h2>
           <ul class="flex-section__item-list item-list">
             <li class="skills__skill-item">
               HTML5, CSS3
@@ -89,7 +89,7 @@
           </ul>
         </section>
         <section id="languages" class="languages">
-          <h3 class="section-header left-section__section-header">Languages</h3>
+          <h2 class="section-header left-section__section-header">Languages</h2>
           <ul class="flex-section__item-list item-list">
             <li>
               English - Advanced (C1)
@@ -112,7 +112,7 @@
           <h2 class="title__job-function">Frontend Engineer</h2>
         </section>
         <section id="about" class="about">
-          <h3 class="section-header right-section__section-header">About me</h3>
+          <h2 class="section-header right-section__section-header">About me</h2>
           <p class="about__text">
             Having started my career as a financial analyst, I quickly fell in love with the more "technical" side of
             things: automating routine and time-consuming tasks with VBA code and Python scripts, working with SQL
@@ -126,7 +126,7 @@
           </p>
         </section>
         <section id="experience" class="experience">
-          <h3 class="section-header right-section__section-header">Work experience</h3>
+          <h2 class="section-header right-section__section-header">Work experience</h2>
           <ul class="item-list flex-section__item-list">
             <li><b>2018-2022</b>: EPAM Systems Inc. - Lead Financial Analyst, FP&A department</li>
             <li><b>2016-2018</b>: EPAM Systems Inc. - Senior Financial Analyst, FP&A department</li>
@@ -135,18 +135,48 @@
           </ul>
         </section>
         <section id="education" class="education">
-          <h3 class="section-header right-section__section-header">Education</h3>
+          <h2 class="section-header right-section__section-header">Education</h2>
           <ul class="item-list flex-section__item-list">
             <li><b>2006-2011</b>: Belarusian State Economic University, Bachelor of Finance</li>
           </ul>
         </section>
         <section id="courses" class="courses">
-          <h3 class="section-header right-section__section-header">Courses</h3>
+          <h2 class="section-header right-section__section-header">Courses</h2>
           <ul class="item-list flex-section__item-list">
             <li>Rolling Scopes School - JS / Front-End. Stage 0 (in progress)</li>
             <li>Rolling Scopes School - Node.js (in progress)</li>
             <li>Udemy - The Complete 2023 Web Development Bootcamp</li>
             <li>Udemy - React - The Complete Guide 2023 (incl. React Router & Redux)</li>
+          </ul>
+        </section>
+        <section id="code" class="code">
+          <h2 class="section-header right-section__section-header">Code example</h2>
+          <pre class="code__code-example">
+            <code>
+  function permutations(string) {
+    if (string.length === 1) return [string];
+  
+    let result = [];
+  
+    const array = string.split('');
+  
+    for (let charIndex in array) {
+      let splicedArray = [...array];
+      splicedArray.splice(charIndex, 1);
+  
+      for (let permutation of permutations(splicedArray.join(''))) {
+        let variation = array[charIndex] + permutation;
+        if (!result.includes(variation)) result.push(variation);
+      }
+    }
+    return result;
+  }          </code>
+          </pre>
+        </section>
+        <section id="projects" class="projects">
+          <h2 class="section-header right-section__section-header">My projects</h2>
+          <ul class="item-list flex-section__item-list">
+            <li><a href="https://jobored-mu.vercel.app/vacancies">Jobored - Job search app (React / Next.js)</a></li>
           </ul>
         </section>
       </div>
