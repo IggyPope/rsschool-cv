@@ -1,5 +1,7 @@
 :root {
   --header-height: 50px;
+  --sections-padding: 20px;
+  --avatar-size: 300px;
 }
 
 * {
@@ -8,6 +10,7 @@
 
 .body {
   font-family: 'Inter', sans-serif;
+  color: #444440;
   min-height: 100%;
   margin: 0;
   padding: 0;
@@ -54,15 +57,45 @@
 .left-section {
   min-height: calc(100vh - var(--header-height));
   background-color: #f4f4f4;
-  padding: 20px;
+  padding: var(--sections-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  width: var(--avatar-size);
+  height: var(--avatar-size);
+}
+
+.avatar__image {
+  height: var(--avatar-size);
+  width: var(--avatar-size);
+  border: #444440 15px solid;
+  border-radius: 50%;
 }
 
 .right-section {
   width: 100%;
+  padding: var(--sections-padding);
+  display: flex;
+  flex-direction: column;
 }
 
-.avatar__image {
-  height: 300px;
-  border: #444440 15px solid;
-  border-radius: 50%;
+.title {
+  height: var(--avatar-size);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.title__name {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.title__job-function {
+  font-size: 2rem;
+  margin: 0;
 }
