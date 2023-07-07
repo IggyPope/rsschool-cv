@@ -54,12 +54,16 @@
   display: flex;
 }
 
+.flex-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .left-section {
   min-height: calc(100vh - var(--header-height));
   background-color: #f4f4f4;
   padding: var(--sections-padding);
-  display: flex;
-  flex-direction: column;
 }
 
 .avatar {
@@ -77,8 +81,6 @@
 .right-section {
   width: 100%;
   padding: var(--sections-padding);
-  display: flex;
-  flex-direction: column;
 }
 
 .title {
