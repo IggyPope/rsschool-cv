@@ -31,22 +31,28 @@
   height: var(--header-height);
 }
 
-.header__navbar {
+.navbar {
   background-color: #444440;
+}
+
+.navbar__item-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.header__nav-item {
+.navbar__nav-link {
   color: #fff;
   line-height: var(--header-height);
-  padding: 0 10px;
+  padding: 14px 10px;
   font-weight: 500;
   text-align: center;
 }
 
-.header__nav-item:hover {
+.navbar__nav-link:hover {
   background-color: gray;
 }
 
