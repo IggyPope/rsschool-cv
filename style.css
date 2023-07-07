@@ -84,16 +84,26 @@ a {
   padding: 0 10px;
 }
 
-/*** Left section ***/
 
-.left-section__section-header {
-  text-align: center;
-}
+/*** Left section ***/
 
 .left-section {
   min-height: calc(100vh - var(--header-height));
   background-color: #f4f4f4;
   padding: var(--sections-padding);
+}
+
+.left-section__section-header {
+  text-align: center;
+}
+
+.left-section__item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: disc;
+  margin-left: 15px;
+  padding: 0 10px;
 }
 
 .avatar {
@@ -126,10 +136,12 @@ a {
   top: 3px;
 }
 
-.skills__skill-list {
+.languages__language-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  list-style: disc;
+  margin-left: 15px;
 }
 
 /*** Right section ***/
